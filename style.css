@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;700&family=Arimo:wght@400;700&display=swap');
+
+:root {
+    --bg-gradient: linear-gradient(180deg, #f0bf3a 0%, #f1d20d 100%);
+    --color-whatsapp: #26d02d;
+    --color-instagram: #e1598e;
+    --color-facebook: #1a57c3;
+    --color-tiktok: #3196ed;
+    --color-button: #009206;
+    --font-header: 'Anton', sans-serif;
+    --font-main: 'Open Sans', sans-serif;
+    --font-sub: 'Arimo', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1d20d; /* Cor base sólida amarela vibrante */
+    background: linear-gradient(180deg, #f0bf3a 0%, #f1d20d 100%);
+    font-family: var(--font-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: var(--font-header);
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.card-info {
+    flex-grow: 1;
+}
+
+.card-title {
+    font-family: var(--font-header);
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    font-family: var(--font-sub);
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.btn-action {
+    background: var(--color-button);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.5);
+}
+
+/* Glassmorphism effect for cards */
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
