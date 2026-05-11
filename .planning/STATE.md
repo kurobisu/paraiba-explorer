@@ -10,7 +10,8 @@
 - **Decisões Críticas:**
     - Uso de `og:image` absoluta para compatibilidade com WhatsApp.
     - Sincronização via `rebase` para resolver conflitos de CNAME.
-- **Aprendizados:** O Registro.br exige configuração manual de 4 IPs do GitHub para domínios apex.
+    - Substituição dos assets temporários (TikTok) pelos logos oficiais (`logo-full.png` e `logo-fav.ico`).
+- **Aprendizados:** O WhatsApp exige um "cache bust" (como `?v=3`) para atualizar o card de pré-visualização após alterações na imagem.
 
 ## Últimos Commits Analisados
 - `8830de4`: Sincronização final e documentação de erro.
