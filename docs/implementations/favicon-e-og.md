@@ -4,13 +4,14 @@
 
 ## Alterações Realizadas
 ### index.html
-- Adicionada a tag `<link rel="icon">` apontando para `assets/tiktok.png`.
-- Implementadas as tags **Open Graph (OG)** para compatibilidade com WhatsApp, Facebook e Instagram.
-- Implementadas as tags **Twitter Card** para compatibilidade com o X (antigo Twitter).
-- Utilizada URL absoluta (`https://paraibaexplorer.com.br/assets/tiktok.png`) para a imagem de pré-visualização, conforme requisito técnico de APIs de chat.
+- Adicionada a tag `<link rel="icon">` apontando para `assets/logo-fav.ico`.
+- Atualizado o logotipo principal do cabeçalho para `assets/logo-full.png`.
+- Implementadas as tags **Open Graph (OG)** reforçadas com `logo-full.png?v=3` para forçar a atualização no WhatsApp.
+- Adicionado `apple-touch-icon` com `logo-fav.png`.
 
 ## Lógica e Dependências
-- **Imagem base:** `assets/tiktok.png`.
+- **Favicon:** `assets/logo-fav.ico`.
+- **Preview Social:** `assets/logo-full.png`.
 - **Domínio base:** `https://paraibaexplorer.com.br/`.
 
 ## Resultados Esperados
