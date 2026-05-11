@@ -1,7 +1,7 @@
 # PLAN-clonagem-site-paraiba-explorer
 
 ## Objetivo
-Criar uma cópia exata do site `https://actourbc.com.br/paraiba-explorer`, focando em alta fidelidade visual, responsividade e funcionalidade de links.
+Criar uma cópia exata do site `???.com.br/paraiba-explorer`, focando em alta fidelidade visual, responsividade e funcionalidade de links.
 
 ## Análise do Site Alvo
 - **Tipo:** Bio-link/Linktree (Provavelmente Canva).
